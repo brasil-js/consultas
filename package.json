@@ -1,0 +1,41 @@
+{
+  "name": "consultas",
+  "version": "1.0.0",
+  "description": "Facilita a consulta de CNPJs na receita federal e de inscrições estaduais no SEFAZ de cada estado",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brasil-js/consultas.git"
+  },
+  "keywords": [
+    "cnpj",
+    "inscricao",
+    "estadual",
+    "ie",
+    "receita",
+    "federal",
+    "sefaz",
+    "sintegra",
+    "captcha"
+  ],
+  "author": "Renato Gama <renato@gammasoft.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brasil-js/consultas/issues"
+  },
+  "homepage": "https://github.com/brasil-js/consultas",
+  "dependencies": {
+    "brasil": "0.0.45",
+    "gammautils": "0.0.73",
+    "iconv-lite": "^0.4.13",
+    "inscricaoestadual": "0.0.4",
+    "request": "^2.67.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3"
+  }
+}
