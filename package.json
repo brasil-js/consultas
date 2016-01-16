@@ -1,5 +1,5 @@
 {
-  "name": "consultas",
+  "name": "brasil-consultas",
   "version": "1.0.0",
   "description": "Facilita a consulta de CNPJs na receita federal e de inscrições estaduais no SEFAZ de cada estado",
   "main": "index.js",
@@ -33,9 +33,5 @@
     "iconv-lite": "^0.4.13",
     "inscricaoestadual": "0.0.4",
     "request": "^2.67.0"
-  },
-  "devDependencies": {
-    "body-parser": "^1.14.2",
-    "express": "^4.13.3"
   }
 }
