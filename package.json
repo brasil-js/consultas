@@ -4,7 +4,7 @@
   "description": "Facilita a consulta de CNPJs na receita federal e de inscrições estaduais no SEFAZ de cada estado",
   "main": "index.js",
   "scripts": {
-    "test": "exit 0;"
+    "test": "./node_modules/nodeunit/bin/nodeunit testes/*Teste.js"
   },
   "repository": {
     "type": "git",
@@ -33,5 +33,9 @@
     "iconv-lite": "^0.4.13",
     "inscricaoestadual": "0.0.4",
     "request": "^2.67.0"
+  },
+  "devDependencies": {
+    "nock": "^5.2.1",
+    "nodeunit": "^0.9.1"
   }
 }

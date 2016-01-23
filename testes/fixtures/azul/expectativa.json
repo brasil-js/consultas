@@ -1,0 +1,96 @@
+{
+    "nome": {
+        "empresarial": "AZUL LINHAS AEREAS BRASILEIRAS S.A.",
+        "fantasia": null
+    },
+    "cnpj": "09296295000160",
+    "email": "camila.lopes@voeazul.com.br",
+    "telefone": "1148311226",
+    "tipo": "MATRIZ",
+    "dataDeAbertura": "04/01/2008",
+    "atividadesEconomicas": {
+        "principal": {
+            "codigo": "5111100",
+            "descricao": "Transporte aéreo de passageiros regular"
+        },
+        "secundarias": [
+            {
+                "codigo": "5120000",
+                "descricao": "Transporte aéreo de carga"
+            },
+            {
+                "codigo": "7719502",
+                "descricao": "Locação de aeronaves sem tripulação"
+            },
+            {
+                "codigo": "3316301",
+                "descricao": "Manutenção e reparação de aeronaves, exceto a manutenção na pista"
+            },
+            {
+                "codigo": "3316302",
+                "descricao": "Manutenção de aeronaves na pista"
+            },
+            {
+                "codigo": "5240199",
+                "descricao": "Atividades auxiliares dos transportes aéreos, exceto operação dos aeroportos e campos de aterrissagem"
+            },
+            {
+                "codigo": "5320201",
+                "descricao": "Serviços de malote não realizados pelo Correio Nacional"
+            },
+            {
+                "codigo": "7911200",
+                "descricao": "Agências de viagens"
+            },
+            {
+                "codigo": "7740300",
+                "descricao": "Gestão de ativos intangíveis não-financeiros"
+            },
+            {
+                "codigo": "4732600",
+                "descricao": "Comércio varejista de lubrificantes"
+            },
+            {
+                "codigo": "6462000",
+                "descricao": "Holdings de instituições não-financeiras"
+            },
+            {
+                "codigo": "8211300",
+                "descricao": "Serviços combinados de escritório e apoio administrativo"
+            },
+            {
+                "codigo": "8599699",
+                "descricao": "Outras atividades de ensino não especificadas anteriormente"
+            }
+        ]
+    },
+    "naturezaJuridica": {
+        "codigo": "2054",
+        "descricao": "SOCIEDADE ANONIMA FECHADA"
+    },
+    "situacao": {
+        "cadastral": {
+            "descricao": "ATIVA",
+            "motivo": null,
+            "data": "04/01/2008"
+        },
+        "especial": {
+            "descricao": null,
+            "data": null
+        }
+    },
+    "endereco": {
+        "logradouro": "AV MARCOS PENTEADO DE ULHOA RODRIGUES",
+        "numero": "939",
+        "complemento": "ANDAR 9 EDIF JATOBA COND CASTELO BRANCO OFFICE PARK",
+        "cep": "06460040",
+        "bairro": "TAMBORE",
+        "municipio": "BARUERI",
+        "uf": "SP"
+    },
+    "consulta": {
+        "data": "22/01/2016",
+        "hora": "20:05:28",
+        "fuso": "America/Sao_Paulo"
+    }
+}
