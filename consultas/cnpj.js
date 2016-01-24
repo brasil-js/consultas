@@ -6,7 +6,8 @@ var http = require('http'),
     hostReceitaFederal = 'www.receita.fazenda.gov.br';
 
 function executarParseDoHtml(body) {
-    body = iconv.decode(body, 'iso-8859-1');
+    // body = iconv.decode(body, 'iso-8859-1'); // Preciso chegar a uma conclusão sobre o encoding
+    body = iconv.decode(body, 'utf8');
 
     if(body.indexOf('Esta página tem como objetivo') > -1) {
         throw new Error('A solução do captcha estava errada!');
@@ -31,10 +32,18 @@ function executarParseDoHtml(body) {
 
         if(matches) {
             match = matches.length > 1 ? matches[1] : matches[0];
-            return match.trim();
+            match = match.trim();
+            match = match.replace(/\s\s+/g, ' ');
+
+            if(/^\*+$/.test(match)) {
+                // Tem apenas asteriscos
+                match = null;
+            }
+
+            return match;
         }
 
-        return '';
+        return null;
     }
 
     var regexes = {
@@ -45,7 +54,7 @@ function executarParseDoHtml(body) {
         hora: /[0-2]{1}[0-9]{1}:[0-5]{1}[0-9]{1}:[0-5]{1}[0-9]{1}/g,
         atividadeEconomicaSecundaria: /[\s]*<b>[\s]*([0-9]{2}\.[0-9]{2}-[0-9]{1}-[0-9]{2})\s-\s(.*)<\/b>/g,
         apenasAsteriscos: /^[\*]+$/g,
-        email: /[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/g,
+        email: /[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/g,
         telefone: /\([0-9]{2}\)\s?[1-9]{1}[0-9]{3,4}-?[0-9]{4}/g
     };
 
@@ -100,7 +109,7 @@ function executarParseDoHtml(body) {
                 data: datas && datas.length > 1 ? datas[1] : null
             },
             especial: {
-                descricao: extrair('SITUA..O ESPECIAL'),
+                descricao: extrair('SITUA..O ESPECIAL') || null,
                 data: datas && datas.length > 4 ? datas[2] : null
             },
         },
