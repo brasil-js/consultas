@@ -1,0 +1,47 @@
+{
+    "nome": {
+        "empresarial": "MUNICIPIO DE AGUAS LINDAS DE GOIAS",
+        "fantasia": "PREFEITURA MUNICIPAL DE AGUAS LINDAS DE GOIAS"
+    },
+    "cnpj": "01616520000196",
+    "email": null,
+    "telefone": null,
+    "tipo": "MATRIZ",
+    "dataDeAbertura": "02/01/1997",
+    "atividadesEconomicas": {
+        "principal": {
+            "codigo": "8411600",
+            "descricao": "Administração pública em geral"
+        },
+        "secundarias": []
+    },
+    "naturezaJuridica": {
+        "codigo": "1244",
+        "descricao": "MUNICIPIO"
+    },
+    "situacao": {
+        "cadastral": {
+            "descricao": "ATIVA",
+            "motivo": null,
+            "data": "05/03/2005"
+        },
+        "especial": {
+            "descricao": null,
+            "data": null
+        }
+    },
+    "endereco": {
+        "logradouro": "AV 02",
+        "numero": "S/N",
+        "complemento": "AREA ESPECIAL N 04",
+        "cep": "72910000",
+        "bairro": "JARDIM QUERENCIA",
+        "municipio": "AGUAS LINDAS DE GOIAS",
+        "uf": "GO"
+    },
+    "consulta": {
+        "data": "25/01/2016",
+        "hora": "22:56:18",
+        "fuso": "America/Sao_Paulo"
+    }
+}

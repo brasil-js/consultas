@@ -49,5 +49,7 @@ function executarCasoDeTeste(nome) {
 }
 
 module.exports = {
-    'Azul': executarCasoDeTeste('azul')
+    'Azul': executarCasoDeTeste('azul'),
+    'Gammasoft': executarCasoDeTeste('gammasoft'),
+    'Pref. Águas Lindas': executarCasoDeTeste('al'),
 }

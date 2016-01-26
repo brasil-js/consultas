@@ -55,7 +55,7 @@ function executarParseDoHtml(body) {
         atividadeEconomicaSecundaria: /[\s]*<b>[\s]*([0-9]{2}\.[0-9]{2}-[0-9]{1}-[0-9]{2})\s-\s(.*)<\/b>/g,
         apenasAsteriscos: /^[\*]+$/g,
         email: /[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/g,
-        telefone: /\([0-9]{2}\)\s?[1-9]{1}[0-9]{3,4}-?[0-9]{4}/g
+        telefone: /\([0-9]{2,3}\)\s?[1-9]{1}[0-9]{3,4}-?[0-9]{4}/g
     };
 
     if(regexes.naoEncontrado.test(body)) {

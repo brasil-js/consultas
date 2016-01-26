@@ -1,0 +1,64 @@
+{
+    "nome": {
+        "empresarial": "GAMMASOFT DESENVOLVIMENTO DE SOFTWARE LTDA",
+        "fantasia": "GAMMASOFT"
+    },
+    "cnpj": "19950366000150",
+    "email": "CONTATO@GAMMASOFT.COM.BR",
+    "telefone": "6186333051",
+    "tipo": "MATRIZ",
+    "dataDeAbertura": "20/03/2014",
+    "atividadesEconomicas": {
+        "principal": {
+            "codigo": "6201501",
+            "descricao": "Desenvolvimento de programas de computador sob encomenda"
+        },
+        "secundarias": [
+            {
+                "codigo": "6202300",
+                "descricao": "Desenvolvimento e licenciamento de programas de computador customizáveis"
+            },
+            {
+                "codigo": "6203100",
+                "descricao": "Desenvolvimento e licenciamento de programas de computador não-customizáveis"
+            },
+            {
+                "codigo": "6209100",
+                "descricao": "Suporte técnico, manutenção e outros serviços em tecnologia da informação"
+            },
+            {
+                "codigo": "6204000",
+                "descricao": "Consultoria em tecnologia da informação"
+            }
+        ]
+    },
+    "naturezaJuridica": {
+        "codigo": "2062",
+        "descricao": "SOCIEDADE EMPRESARIA LIMITADA"
+    },
+    "situacao": {
+        "cadastral": {
+            "descricao": "ATIVA",
+            "motivo": null,
+            "data": "20/03/2014"
+        },
+        "especial": {
+            "descricao": null,
+            "data": null
+        }
+    },
+    "endereco": {
+        "logradouro": "ST SIA TRECHO 03 LT 625/635/645/655/665/675/685/695 BL A SALA",
+        "numero": "333",
+        "complemento": "3 ANDAR",
+        "cep": "71200030",
+        "bairro": "SETOR DE INDUSTRIA E ABASTECIMENTO",
+        "municipio": "BRASILIA",
+        "uf": "DF"
+    },
+    "consulta": {
+        "data": "25/01/2016",
+        "hora": "22:50:23",
+        "fuso": "America/Sao_Paulo"
+    }
+}
